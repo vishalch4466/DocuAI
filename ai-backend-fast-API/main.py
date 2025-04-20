@@ -13,7 +13,7 @@ from sentence_transformers import SentenceTransformer
 from typing import List, Dict
 
 # openai.api_key = os.getenv("OPENAI_API_KEY")  # Ensure your API key is set
-openai.api_key = "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"
+openai.api_key = "sk-"
 app = FastAPI()
 
 # In-memory history (replace with a database in production)
